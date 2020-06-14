@@ -1,0 +1,12 @@
+mylist=input("enter ur list: ")
+list=mylist.split()
+print(list)
+print("positive no from list : ","[",end=" ")
+for number in list:
+    p=int(number)
+    if p>0 :  
+     print(number,end=",")         
+    if number==list[-1]:
+     print("]")    
+     
+    
